@@ -34,7 +34,7 @@ namespace Stager_test
 
         public static void Main(string[] args)
         {
-            const int a_size = 25;
+            const int a_size = 25000000;
             Random rand = new Random();
             int[] Int_Array = new int[a_size];
             for(int iter = 0; iter < a_size; iter++)
@@ -43,9 +43,9 @@ namespace Stager_test
             }
             //int[] Int_Array = { 0, 100,50,60,-50,85,74,98,-3,8,97,45,-30,65,-55,321,5,48,5,4,3,314,84,8,0 };*/
             //int[] Int_Array = {};
-            for (int i = 0; i < Int_Array.Length; i++)
+            /*for (int i = 0; i < Int_Array.Length; i++)
                 Console.Write(Int_Array[i]+" ");
-            Console.WriteLine('\n');
+            Console.WriteLine('\n');*/
             int result = MainClass.Min_num(Int_Array);
             Console.WriteLine("result = "+result);
         }
