@@ -22,8 +22,8 @@ namespace Stager_test
                 tmp = j;
                 if ((args[tmp] < args[num2]) && (args[tmp] != args[num1])) num2 = tmp;
             }
-            Console.WriteLine("i = "+num1+" Num1 = "+args[num1]);
-            Console.WriteLine("j = "+num2+" Num2 = "+args[num2]);
+            //Console.WriteLine("i = "+num1+" Num1 = "+args[num1]);
+            //Console.WriteLine("j = "+num2+" Num2 = "+args[num2]);
             return args[num1]+args[num2];
         }
 
